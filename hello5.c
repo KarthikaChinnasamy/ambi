@@ -1,10 +1,14 @@
-#include<stdio.h>
-void main()
+#include <stdio.h>
+
+int main(void) {
+
+char s[5]={'h','e','l','l','o'};
+int i,j;
+for(i=0;i<5;i++)
 {
-char s="hello";
-int i;
-for(i=0;i<4;i++)
-{
-printf"%s",s);
+	for(j=0;j<5;j++)
+printf("%c",s[j]);
 }
+	// your code goes here
+	return 0;
 }
